@@ -7,12 +7,16 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
 .orange-color {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
+   
 }
 
 .half-width {
@@ -22,20 +26,21 @@ section {
 
 .half-width img {
     width: 80%;
-    margin-bottom: 150px;
+    
+}
+
+.link-button {
+    text-decoration: none;
+    color: papayawhip;
+    background-image: linear-gradient(orange, rgb(255, 38, 0));
+    padding: 10px 40px;
+    border-radius: 5px;
 }
 
 .top-banner {
     background-image:  url(images/top-banner.png);
     background-repeat: no-repeat;
     margin: 0;
-}
-
-.link-button {
-    text-decoration: none;
-    background-image: linear-gradient(orange, rgb(255, 38, 0));
-    padding: 10px 40px;
-    border-radius: 5px;
 }
 
 .resume {
@@ -48,4 +53,14 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+    padding-left: 30px;
+    border-radius: 20px;
+    box-shadow: 20px 50px 40px gray;
 }
