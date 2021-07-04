@@ -55,6 +55,12 @@ h2 {
     background-position: right;
 }
 
+.experience-area {
+    background-image: url(Images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
 .experience-item {
     width: 40%;
     margin-left: 5%;
@@ -62,5 +68,10 @@ h2 {
     margin-bottom: 50px;
     padding-left: 30px;
     border-radius: 20px;
-    box-shadow: 20px 50px 40px gray;
+    box-shadow: 25px 50px 40px gray;
+    border-bottom: 5px solid rgb(241, 160, 37);
+}
+
+#web-dev-experience {
+    border-image: linear-gradient(blue cya)
 }
