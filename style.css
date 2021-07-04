@@ -22,6 +22,7 @@ section {
 
 .half-width img {
     width: 80%;
+    margin-bottom: 150px;
 }
 
 .top-banner {
@@ -35,4 +36,16 @@ section {
     background-image: linear-gradient(orange, rgb(255, 38, 0));
     padding: 10px 40px;
     border-radius: 5px;
+}
+
+.resume {
+    text-decoration: none;
+    background-image: linear-gradient(yellow blue);
+    padding: 10px 45px;
+} 
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
