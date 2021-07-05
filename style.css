@@ -38,20 +38,20 @@ h2 {
 }
 
 .top-banner {
-    background-image:  url(images/top-banner.png);
+    background-image:  url(Images/top-banner.png);
     background-repeat: no-repeat;
     margin: 0;
 }
 
 
 .dream-big {
-    background-image: url(images/dream-bg.png);
+    background-image: url(Images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
 }
 
 .experience-area {
-    background-image: url(images/exp-bg.png);
+    background-image: url(Images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
 }
