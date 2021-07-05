@@ -64,5 +64,23 @@ h2 {
     padding-left: 30px;
     border-radius: 20px;
     box-shadow: 25px 50px 40px gray;
-    border-bottom: 5px solid rgb(241, 160, 37);
+   
+}
+
+#web-dev-experience {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(255, 17, 0) rgb(255, 255, 255));
+    border-image-slice: 1;
+}
+
+#full-stack-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(191, 30, 240) rgb(17, 219, 255));
+    border-image-slice: 1;
+
+}
+
+footer p {
+    color: burlywood;
+    text-align: center;
 }
